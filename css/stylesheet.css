@@ -32,10 +32,26 @@
     display: inline-block;
 }
 
+a.buttom-send{
+     text-decoration: none;
+     display: inline-block;
+     border: 1px solid;
+    border-radius: 25px;
+    padding: 10px 35px;
+    color:rgba(51,122,183,1.0);
+    font-size: 1.8rem;
+}
+a.buttom-send:hover{
+    background-color: rgba(51,122,183,1.0);
+    color: rgba(255,255,255,0.9);
+}
+.carousel-ineer .item{
+    text-align: center;
+}
 
 /* slider customization*/
 .carousel-control.left, .carousel-control.right {
-    background: none;
+    background: none;/* delete gradient fon */
 }
 #carousel {
     padding-top: 50px;
