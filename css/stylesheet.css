@@ -1,0 +1,78 @@
+/*.navbar {
+    border-radius: 0px;
+}*/
+* {
+    font-family: Raleway,Arial,sans-serif;
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar-nav > li > a {
+    padding: 5px 0px; 
+    margin: 10px 15px;  
+    border-bottom: 1px solid; 
+    border-color: rgba(255,255,255,.0);
+    font-size: 2.14rem;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #eee;
+}
+.navbar-nav > li > a:hover {
+    border-color: rgba(255,255,255,.65);
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgba(255,255,255,.65);
+}
+.navbar-inverse .navbar-brand {
+    vertical-align: middle;
+    font-size: 3.0rem;
+    color: #eee;
+}
+.navbar-inverse .navbar-brand > span {
+    display: inline-block;
+}
+
+
+/* slider customization*/
+.carousel-control.left, .carousel-control.right {
+    background: none;
+}
+#carousel {
+    padding-top: 50px;
+}
+#slidebackground01 {
+    height: 100%;
+    background: url(../image/slide01.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding: 15%;
+}
+.carousel-ineer, .item{
+    height: 100%;
+}
+@media screen and ( max-width: 768px ){
+    .carousel{
+        height: 330px;
+    }
+    h3 {
+        font-size: 2rem; 
+        color: #eee;
+    }
+    .navbar {
+        border: none;
+        padding: 0 2px;
+    }
+}
+@media screen and ( min-width: 769px ){
+    .carousel{
+        height: 650px;
+    }
+    h3 {
+        font-size: 4rem; 
+        color: #eee;
+    }
+    .navbar {
+        border: none;
+        padding: 0 8%;
+    }
+}
